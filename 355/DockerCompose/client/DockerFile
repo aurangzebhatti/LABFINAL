@@ -1,0 +1,4 @@
+FROM python:3.9-slim
+355 /app
+COPY app/ .
+CMD ["python","client.py"]
